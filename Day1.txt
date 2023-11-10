@@ -1,0 +1,10 @@
+- kubernets is container orchestation platform
+- containers are Ephemeral in Nature
+- Ephemeral means short in Nature 
+- if all the containers are on one host and 1 container is taking all the resourses then other container suffer
+- so PROBLEM No 1 is Having One host
+- PROBLEM no 2 lets say someone killed a container then the applicatin in that container will not be accessible, so somebody has to act to start it
+  so this behaviour is called Auto Healing (container will heal automatically)
+- Auto Healing is missing in Docker
+- PROBLEM No 3 is Auto scaling
+- 
